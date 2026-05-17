@@ -2,15 +2,18 @@
 
 本 repo 為 Hatsuon 產品的 **Module Spec git**，module_id 為 `no1_pronunciation_app`，承載日文發音練習 App 的行為規格。
 
-## 三層 git 配對
+## 四層 git 配對
 
 - **頂層 Product git：**
     - 位於 `../../`
+- **對側 Module Design git：**
+    - 尚無
+    - 本 module 暫無設計工件
 - **本 Module Spec git：**
     - 即本 repo
-    - 位於 Product git 的 `no3_product_specs/no1_pronunciation_app/`
+    - 位於 Product git 的 `no4_product_specs/no1_pronunciation_app/`
 - **對側 Module Impl git：**
-    - 位於 Product git 的 `no5_product_development/no1_pronunciation_app/`
+    - 位於 Product git 的 `no6_product_development/no1_pronunciation_app/`
     - React Native Expo 發音練習 App
 
 完整路徑與配對表由 `decision_framework_router` skill 的 `products_registry.md` 維護。
@@ -59,13 +62,16 @@ Spec 按決策框架 Model / View / Logic 分三層。
 
 本 repo 由原 HatsuonSpec 的 `no2_content_spec/`、`no3_module_specs/`、`no4_screen_specs/` 三個目錄合併重組而來，對齊 SuSuGiGi 決策框架風格。
 
+2026-05-15 配合四層 git 重構，本 repo 路徑從 `no3_product_specs/no1_pronunciation_app/` 重編為 `no4_product_specs/no1_pronunciation_app/`。
+
 ---
 
 ## 配對變動規則
 
-Spec 變動時通常需要三層聯動檢查。
+Spec 變動時通常需要四層聯動檢查。
 
 - 對側 Impl 需檢查對應實作
+- 對側 Design 暫無，未來若補 Design git 應一併檢查
 - 上游 Product Map 目前為 placeholder，待補
 - 需求層目前為 placeholder，待補
 
