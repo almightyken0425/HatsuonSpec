@@ -44,7 +44,7 @@
 - 所有 Spec 改動使用 `spec_writer`
 - Markdown 改動使用 `universal_writing_linter`
 - Spec 變動要檢查 Impl
-- 上游需求與 Product Map 目前未建
+- 上游需求與 Product Map 已建立
 - Design 建立後要加入配對檢查
 - 跨層 branch 名稱必須一致
 - 配對 commit 內容必須一致
